@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SEC Innovation Exemption Comment Tracker: Tokenized NMS Stock (4-927)</title>
+<meta name="site-version" content="1.0.0">
+<meta name="description" content="Tracking every comment letter on the SEC&#x27;s Innovation Exemption order for tokenized NMS stock, File No. 4-927. Stance and direction on each part of the order.">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  color-scheme:light;
+  --surface:#fcfcfb;--plane:#f9f9f7;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;
+  --grid:#e1e0d9;--baseline:#c3c2b7;--hair:rgba(11,11,11,0.10);
+  --tighten:#2a78d6;--loosen:#eb6834;--support:#2a78d6;--conditional:#86b6ef;
+  --oppose:#eb6834;--neutral:#c3c2b7;--neutral2:#e1e0d9;--neutral3:#f0efec;
+  --chart-g1:#787770;--chart-g2:#b4b3ab;--on-g1:#0b0b0b;--on-g2:#0b0b0b;
+  --radius:4px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark;
+  --surface:#1a1a19;--plane:#0d0d0d;--ink:#fff;--ink2:#c3c2b7;--muted:#898781;
+  --grid:#2c2c2a;--baseline:#383835;--hair:rgba(255,255,255,0.10);
+  --tighten:#3987e5;--loosen:#d95926;--support:#3987e5;--conditional:#256abf;
+  --oppose:#d95926;--neutral:#383835;--neutral2:#2c2c2a;--neutral3:#232322;
+  --chart-g1:#adaca4;--chart-g2:#6b6a65;--on-g1:#0b0b0b;--on-g2:#fff;
+}}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --surface:#1a1a19;--plane:#0d0d0d;--ink:#fff;--ink2:#c3c2b7;--muted:#898781;
+  --grid:#2c2c2a;--baseline:#383835;--hair:rgba(255,255,255,0.10);
+  --tighten:#3987e5;--loosen:#d95926;--support:#3987e5;--conditional:#256abf;
+  --oppose:#d95926;--neutral:#383835;--neutral2:#2c2c2a;--neutral3:#232322;
+  --chart-g1:#adaca4;--chart-g2:#6b6a65;--on-g1:#0b0b0b;--on-g2:#fff;
+}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--plane);color:var(--ink);
+  font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px 80px}
+a{color:var(--tighten)}
+a:hover{text-decoration-thickness:2px}
+h1,h2,h3{line-height:1.25;margin:0}
+h1{font-size:30px;letter-spacing:-0.015em;margin:0 0 6px}
+h2{font-size:12px;letter-spacing:0.09em;text-transform:uppercase;color:var(--ink2);
+  margin:52px 0 14px;font-weight:650}
+h3{font-size:16px;margin:0 0 6px}
+p{margin:0 0 12px;color:var(--ink2)}
+.lead{font-size:16px;color:var(--ink)}
+.banner{background:var(--surface);border-bottom:1px solid var(--hair);padding:26px 0 22px;margin-bottom:4px}
+.draft{background:#eb6834;color:#fff;text-align:center;font-weight:650;
+  padding:7px;letter-spacing:0.04em;font-size:13px}
+.updated{font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted);margin:0 0 10px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--ink2);margin-top:14px}
+.meta b{color:var(--ink);font-weight:600}
+.card{background:var(--surface);border:1px solid var(--hair);border-radius:8px;padding:18px 20px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:12px}
+.tile{background:var(--surface);border:1px solid var(--hair);border-radius:8px;padding:15px 16px}
+.tile .v{font-size:32px;font-weight:660;letter-spacing:-0.02em;line-height:1.05}
+.tile .k{font-size:12px;color:var(--ink2);margin-top:5px}
+.tile .s{font-size:11px;color:var(--muted);margin-top:3px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--ink2);margin:0 0 12px}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.stack{display:flex;height:26px;border-radius:var(--radius);overflow:hidden;gap:2px;background:transparent}
+.stack span{display:block;min-width:2px}
+.stack span:first-child{border-radius:var(--radius) 0 0 var(--radius)}
+.stack span:last-child{border-radius:0 var(--radius) var(--radius) 0}
+.elrow{display:grid;grid-template-columns:52px 1fr 132px;gap:12px;align-items:center;
+  padding:9px 0;border-bottom:1px solid var(--grid)}
+.elrow:last-child{border-bottom:0}
+.code{font-weight:660;font-size:13px;font-variant-numeric:tabular-nums}
+.code small{display:block;font-weight:400;font-size:10px;color:var(--muted);letter-spacing:.04em}
+.dbar{position:relative;height:22px;background:linear-gradient(var(--grid),var(--grid)) center/1px 100% no-repeat}
+.dbar .seg{position:absolute;top:0;height:22px}
+.dbar .seg.l{border-radius:var(--radius) 0 0 var(--radius)}
+.dbar .seg.r{border-radius:0 var(--radius) var(--radius) 0}
+.cnt{text-align:right;font-size:11.5px;line-height:1.35;color:var(--ink2);font-variant-numeric:tabular-nums}
+.empty{color:var(--muted);font-size:12.5px;font-style:italic}
+.acc{border-bottom:1px solid var(--grid)}
+.acc:last-of-type{border-bottom:0}
+.acc>summary{cursor:pointer;padding:11px 0;font-size:14px;list-style:none;display:flex;gap:10px;align-items:baseline}
+.acc>summary::-webkit-details-marker{display:none}
+.acc>summary::before{content:"+";color:var(--muted);font-weight:650;width:12px;flex:none}
+.acc[open]>summary::before{content:"\2013"}
+.acc .body{padding:0 0 16px 22px;font-size:14px;color:var(--ink2)}
+.pill{display:inline-block;font-size:10.5px;letter-spacing:.05em;text-transform:uppercase;
+  border:1px solid var(--hair);border-radius:99px;padding:1px 8px;color:var(--muted);margin-left:6px}
+.rfcgrid{display:flex;flex-wrap:wrap;gap:3px}
+.rfc{width:26px;height:22px;border-radius:3px;display:flex;align-items:center;justify-content:center;
+  font-size:10px;font-variant-numeric:tabular-nums;border:1px solid var(--grid);
+  color:var(--muted);background:transparent;cursor:default}
+.rfc.on{border-color:transparent}
+/* The coverage ramp is fixed in both themes, so its ink has to be fixed too:
+   var(--ink) flips to white in dark mode and put white text on the two palest
+   steps of a light blue ramp. Same defect as the cross-tab's first build. */
+.rfc.ink{color:#0b0b0b}
+.rfc.pale{color:#fff}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px;align-items:center}
+.filters select{font:inherit;font-size:12.5px;padding:5px 8px;border:1px solid var(--hair);
+  border-radius:6px;background:var(--surface);color:var(--ink);max-width:210px}
+.filters .count{font-size:12px;color:var(--muted);margin-left:auto}
+.rfcgroup{margin:0 0 12px}
+.rfcgroup .h{font-size:11.5px;color:var(--ink2);margin:0 0 5px;font-weight:600}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:7px 9px;border-bottom:1px solid var(--grid);vertical-align:top}
+th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+#ltable td:nth-child(2),#ltable td:nth-child(6){white-space:nowrap}
+#ltable{min-width:920px}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.foot{margin-top:56px;padding-top:18px;border-top:1px solid var(--grid);font-size:12px;color:var(--muted)}
+.tog{font-size:12px;color:var(--tighten);background:none;border:0;padding:0;cursor:pointer;font-family:inherit}
+.note{font-size:12px;color:var(--muted);margin-top:10px}
+[hidden]{display:none!important}
+@media (max-width:640px){
+  h1{font-size:24px}
+  .elrow{grid-template-columns:44px 1fr;grid-template-areas:"c b" ". n"}
+  .elrow .cnt{grid-area:n;text-align:left}
+}
+@media print{.tog{display:none}}
+/* Percentage inside a stacked segment. Only rendered where it fits; the text
+   colour is set per segment in the generator, because it depends on the fill. */
+.stack span{display:flex;align-items:center;justify-content:center;
+  font-size:11px;font-weight:600;letter-spacing:0.02em;overflow:hidden}
+.legend .lgn{color:var(--muted);font-variant-numeric:tabular-nums}
+
+/* Contents rail. Fixed beside the 1080px column, and only once the viewport is
+   wide enough to hold it without crowding the text: 1080 plus two 186px gutters
+   is 1452. Below that it is not rendered at all rather than folded into the
+   flow, where it would only repeat the page. */
+.toc{display:none}
+@media (min-width:1460px){
+  .toc{display:block;position:fixed;top:50%;transform:translateY(-50%);
+    left:calc(50% + 556px);width:170px;z-index:5;font-size:12px;line-height:1.45}
+  .toc .toch{font-size:10px;letter-spacing:0.09em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 8px 12px}
+  .toc ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--hair)}
+  .toc li{margin:0 0 6px}
+  .toc a{display:block;color:var(--muted);text-decoration:none;
+    padding:1px 0 1px 11px;margin-left:-1px;border-left:2px solid transparent;
+    overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .toc a:hover{color:var(--ink2)}
+  .toc a.on{color:var(--ink);border-left-color:var(--ink)}
+}
+h2{scroll-margin-top:24px}
+@media print{.toc{display:none}}
+/* Hover description on a provision code. CSS-only, and focusable so it is not
+   mouse-only; the panel is absolutely positioned so it never reflows the row. */
+.tip{position:relative;cursor:help;border-bottom:1px dotted var(--baseline);outline:none}
+.tip::after{content:attr(data-tip);position:absolute;left:0;top:calc(100% + 8px);
+  width:270px;padding:9px 11px;border-radius:6px;
+  background:var(--surface);color:var(--ink2);border:1px solid var(--hair);
+  box-shadow:0 6px 20px rgba(0,0,0,0.14);
+  font-size:12px;font-weight:400;line-height:1.45;letter-spacing:0;text-transform:none;
+  white-space:normal;text-align:left;
+  opacity:0;visibility:hidden;transition:opacity .12s ease;z-index:30;pointer-events:none}
+.tip:hover::after,.tip:focus::after,.tip:focus-visible::after{opacity:1;visibility:visible}
+.tip:focus-visible{outline:2px solid var(--tighten);outline-offset:2px;border-radius:2px}
+
+/* Sortable table headings. */
+th.sortable{cursor:pointer;user-select:none;position:relative;padding-right:15px}
+th.sortable:hover{color:var(--ink)}
+th.sortable::after{content:"";position:absolute;right:4px;top:50%;margin-top:-2px;
+  border-left:3.5px solid transparent;border-right:3.5px solid transparent;
+  border-bottom:4px solid var(--baseline);opacity:0}
+th.sortable:hover::after{opacity:.5}
+th.sortable[aria-sort]{color:var(--ink)}
+th.sortable[aria-sort]::after{opacity:1;border-bottom-color:var(--ink)}
+th.sortable[aria-sort="descending"]::after{
+  border-bottom:0;border-top:4px solid var(--ink)}
+
+/* Search box, sitting in the same row as the filter selects. */
+.filters input[type=search]{font:inherit;font-size:12px;color:var(--ink);
+  background:var(--surface);border:1px solid var(--hair);border-radius:6px;
+  padding:5px 9px;min-width:210px}
+.filters input[type=search]:focus{outline:2px solid var(--tighten);outline-offset:-1px}
+
+/* Source-document link: the commenter name, then a small file-type marker. */
+a.src{color:var(--ink);text-decoration:none}
+a.src:hover{text-decoration:underline}
+.ft{display:inline-flex;align-items:center;gap:3px;margin-left:6px;
+  font-size:10px;letter-spacing:0.04em;color:var(--muted);vertical-align:1px;
+  white-space:nowrap}
+.fi{width:9px;height:11px;flex:none}
+.fi path{fill:none;stroke:var(--muted);stroke-width:1}
+.fi .fold{fill:var(--muted);stroke:none}
+a.src:hover .ft,a.src:hover .fi path{color:var(--tighten);stroke:var(--tighten)}
+
+/* The link out to the letters page. */
+a.pagelink{display:inline-block;font-size:13px;font-weight:600;color:var(--tighten);
+  text-decoration:none;border:1px solid var(--hair);border-radius:6px;padding:8px 14px;
+  background:var(--plane)}
+a.pagelink:hover{border-color:var(--tighten)}
+td.nw,th.nw{white-space:nowrap}
+
+/* ---------------------------------------------------------------- v1.4.0 */
+
+/* Theme toggle. The palette below already carries a full dark set and honours
+   an explicit data-theme on the root; this is the switch for it. The icon shown
+   is the theme the button will move you TO, and the choice is remembered per
+   browser. A no-JS or blocked-storage reader keeps the system preference. */
+.themetog{position:fixed;top:10px;right:12px;z-index:40;width:32px;height:32px;
+  display:flex;align-items:center;justify-content:center;padding:0;cursor:pointer;
+  border:1px solid var(--hair);border-radius:99px;background:var(--surface);color:var(--ink2)}
+.themetog:hover{color:var(--ink);border-color:var(--baseline)}
+.themetog:focus-visible{outline:2px solid var(--tighten);outline-offset:2px}
+.themetog svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.6;
+  stroke-linecap:round;stroke-linejoin:round}
+.themetog .ic-sun{display:none}
+.themetog[data-theme="dark"] .ic-sun{display:block}
+.themetog[data-theme="dark"] .ic-moon{display:none}
+@media print{.themetog{display:none}}
+
+/* Sticky heading on the letters table. A vertically sticky th only works when
+   the scroll container is the viewport, and an overflow-x box is also an
+   overflow-y box, so the wrapper drops its horizontal overflow above 1000px --
+   where the 920px table fits the 1080px column anyway -- and keeps it below.
+   The border under a th does not paint while stuck under border-collapse, so
+   the rule is drawn as an inset shadow instead. */
+.ltwrap{overflow-x:visible}
+@media (max-width:1000px){.ltwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}}
+@media (min-width:1001px){
+  #ltable thead th{position:sticky;top:0;z-index:3;background:var(--surface);
+    box-shadow:inset 0 -1px 0 var(--baseline)}
+}
+
+/* Rater agreement. One dot per element row, hollow where the three raters split.
+   Small enough to sit in the provision row without competing with the bar. */
+.agr{display:inline-flex;align-items:center;gap:3px;flex-wrap:wrap;justify-content:flex-end}
+.agr i{width:7px;height:7px;border-radius:99px;flex:none;
+  background:var(--baseline);border:1px solid var(--baseline)}
+.agr i.sp{background:transparent;border-color:var(--loosen);box-shadow:inset 0 0 0 1px var(--loosen)}
+.agrn{font-size:10.5px;color:var(--muted);letter-spacing:.03em;white-space:nowrap}
+
+/* Cross-tabulation heat grid. Shares the RFC map's sequential ramp so the two
+   heat displays read as one system; the ramp is fixed rather than theme-flipped
+   for the same reason. */
+.xtab{border-collapse:separate;border-spacing:2px;width:100%;font-size:12.5px}
+.xtab th{padding:4px 6px;border:0;vertical-align:bottom;line-height:1.2;
+  text-transform:none;letter-spacing:0;font-size:11px}
+.xtab th.rh{text-align:left;font-size:11.5px;text-transform:none;letter-spacing:0;
+  color:var(--ink2);font-weight:500;white-space:normal;max-width:250px}
+.xtab th.rh small{display:block;color:var(--muted);font-weight:400;font-size:10.5px}
+.xtab td{padding:0;border:0}
+.xtab .cell{position:relative;isolation:isolate;display:block;border-radius:3px;
+  padding:7px 4px;text-align:center;font-variant-numeric:tabular-nums;font-size:12px;
+  background:var(--neutral3);color:var(--muted)}
+.xtab .cell.on::before{content:"";position:absolute;inset:0;border-radius:3px;
+  background:var(--c);opacity:var(--a);z-index:-1}
+.xtab .cell.thin{outline:1px dashed var(--baseline);outline-offset:-1px}
+.xtab tr.small th.rh{color:var(--muted)}
+
+/* Per-letter evidence page. */
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin:0 0 4px}
+.chip{min-width:28px;height:24px;padding:0 5px;border-radius:4px;display:flex;
+  align-items:center;justify-content:center;font-size:11px;font-variant-numeric:tabular-nums;
+  border:1px solid var(--grid);color:var(--ink2);text-decoration:none;background:var(--surface)}
+.chip:hover{border-color:var(--tighten);color:var(--tighten)}
+.chip.mute{color:var(--muted);background:transparent}
+.ldet{border-top:1px solid var(--grid);padding:20px 0 6px;scroll-margin-top:14px}
+.ldet:first-of-type{border-top:0;padding-top:4px}
+.lhead{display:flex;gap:12px;align-items:baseline}
+.lno{font-size:12px;font-weight:660;font-variant-numeric:tabular-nums;color:var(--muted);
+  min-width:30px;letter-spacing:.03em}
+.ldet h3{font-size:16px;margin:0 0 4px}
+.lmeta{font-size:12px;color:var(--muted);margin:0 0 8px}
+.lmeta b{color:var(--ink2);font-weight:600}
+.lpills{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px 42px}
+.lp{font-size:11px;letter-spacing:.03em;border:1px solid var(--hair);border-radius:99px;
+  padding:2px 9px;color:var(--ink2);background:var(--plane)}
+.lp b{font-weight:650;color:var(--ink)}
+.lbody{margin-left:42px}
+.ev{border-left:2px solid var(--grid);padding:0 0 0 11px;margin:0 0 5px;
+  font-size:12.5px;color:var(--ink);font-style:normal}
+.ev::before{content:"“"}
+.ev::after{content:"”"}
+.rat{font-size:11.5px;color:var(--muted);margin:0}
+.withheld{font-size:12px;color:var(--ink2);background:var(--plane);
+  border:1px solid var(--hair);border-left:2px solid var(--loosen);
+  border-radius:4px;padding:8px 11px;margin:0 0 10px 42px}
+.etab td:first-child{white-space:nowrap;font-weight:600;font-size:12px}
+.etab td.st{white-space:nowrap;font-size:12px}
+.noeng{font-size:12.5px;color:var(--muted);font-style:italic;margin:0 0 8px 42px}
+.backtop{font-size:11px;color:var(--muted);text-decoration:none;margin-left:42px}
+.backtop:hover{color:var(--tighten)}
+@media (max-width:640px){
+  .lpills,.lbody,.withheld,.noeng,.backtop{margin-left:0}
+}
+.banner .wrap{padding-bottom:0}
+
+/* v1.4.1 */
+.xtab th.ch{text-align:center}
+/* Stance composition bar, for an element with no direction dial. Shorter than the
+   headline bars: it sits in a 22px row beside the diverging bars. */
+.stack.sb{height:22px}
+.npo{display:inline-block;margin-left:7px;font-size:10px;letter-spacing:.04em;
+  text-transform:uppercase;color:var(--muted);border:1px solid var(--hair);
+  border-radius:99px;padding:0 6px;vertical-align:1px}
+/* The Commission's own description of a declined alternative, under its title. */
+.altd{font-size:11.5px;color:var(--muted);font-style:italic;margin-top:3px;
+  line-height:1.4}
+
+/* v1.5 */
+/* Captions inside a card fill the card. A 74-80ch measure is right for running text
+   in the banner and reads as a mistake inside a 1080px box. */
+/* superseded: the measure is gone from p and .note themselves */
+
+/* The question panel for a numbered-question cell. Positioned against the group,
+   not against the 26px cell, so it can never clip at the right edge of the grid. */
+.rfcgroup{position:relative}
+.rfc{outline:none}
+.rfc::after{content:attr(data-q);position:absolute;left:0;right:0;top:100%;
+  margin-top:6px;padding:10px 12px;border-radius:6px;z-index:30;
+  background:var(--surface);color:var(--ink2);border:1px solid var(--hair);
+  box-shadow:0 8px 24px rgba(0,0,0,0.16);
+  font-size:12px;line-height:1.5;text-align:left;font-variant-numeric:normal;
+  opacity:0;visibility:hidden;transition:opacity .1s ease;pointer-events:none}
+.rfc:hover::after,.rfc:focus::after,.rfc:focus-visible::after{opacity:1;visibility:visible}
+.rfc:hover,.rfc:focus-visible{outline:2px solid var(--tighten);outline-offset:1px}
+
+/* An expandable provision row. The summary IS the row, so the bar stays where it was
+   and the explanation unfolds beneath it. This section and "what each provision
+   means" were two lists of the same eighteen provisions until v1.5. */
+.elx{border-bottom:1px solid var(--grid)}
+.elx:last-of-type{border-bottom:0}
+.elx>summary{list-style:none;cursor:pointer;outline:none}
+.elx>summary::-webkit-details-marker{display:none}
+.elx>summary.elrow{border-bottom:0}
+.elx>summary:hover .ellab{color:var(--ink)}
+.elx>summary:focus-visible{outline:2px solid var(--tighten);outline-offset:2px;border-radius:4px}
+.ellab{font-size:12.5px;color:var(--ink2);margin-bottom:3px}
+.ellab::after{content:"+";color:var(--muted);font-weight:650;margin-left:7px}
+.elx[open]>summary .ellab::after{content:"–"}
+.elbody{padding:2px 0 16px 64px;font-size:13.5px;color:var(--ink2)}
+.elbody.stand{padding-left:0;padding-top:12px}
+
+.elbody .scope{font-size:12.5px;color:var(--muted)}
+.elbody .rat{font-size:12px}
+.tips{font-weight:400}
+@media (max-width:640px){.elbody{padding-left:0}}
+
+/* The opening summary: the one paragraph a reader who reads nothing else will read. */
+.lead2{font-size:16px;line-height:1.55;color:var(--ink);margin-top:16px}
+.banner .acc{border-bottom:0;margin-top:4px}
+.banner .acc>summary{font-size:13.5px}
+.banner .acc .body{font-size:14px}
+
+/* 4-927: letters by week of filing (no closing date, so arrivals are the time axis). */
+.wkrow{display:flex;gap:6px;align-items:flex-end;overflow-x:auto;padding:4px 0 2px}
+.wk{flex:0 0 46px;text-align:center;font-size:11px;color:var(--ink2)}
+.wkb{height:90px;display:flex;align-items:flex-end;justify-content:center;border-bottom:1px solid var(--baseline)}
+.wkb span{display:block;width:28px;background:var(--chart-g1);border-radius:2px 2px 0 0;min-height:1px}
+.wkn{font-variant-numeric:tabular-nums;margin-bottom:2px}
+.wkl{margin-top:4px;color:var(--muted);white-space:nowrap}
+</style><script>(function(){try{var t=localStorage.getItem('t4927theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script></head>
+<body><button class="themetog" id="themetog" type="button" title="Switch to dark" aria-label="Switch to dark"><svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg><svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4 8.5 8.5 0 1020 14.5z"/></svg></button><nav class="toc" aria-label="Contents"><div class="toch">On this page</div><ol><li><a href="#background">Background</a></li><li><a href="#methodology">Methodology</a></li><li><a href="#at-a-glance">At a glance</a></li><li><a href="#stance-overall-character-of-the-comment-file">Stance</a></li><li><a href="#posture-which-way-the-comment-file-pushes">Posture</a></li><li><a href="#posture-by-commenter-type">By commenter type</a></li><li><a href="#where-commenters-stand-part-by-part">By part of the order</a></li><li><a href="#where-the-raters-disagreed">Rater agreement</a></li><li><a href="#which-of-the-10-questions-commenters-answered">Questions answered</a></li><li><a href="#letters-by-week-of-filing">By week</a></li><li><a href="#filers-on-both-crypto-comment-files">Filers on both files</a></li><li><a href="#comment-letters">Comment letters</a></li></ol></nav>
+<div class="banner"><div class="wrap">
+  <p class="updated">Last updated 2026-10-02</p>
+  <h1>SEC Innovation Exemption Comment Tracker: Tokenized NMS Stock</h1>
+  <p class="lead">SEC comment-letter tracker · File No. 4-927 · Release No. 34-106402</p>
+  <p class="lead2">On 17 September 2026 the Securities and Exchange Commission issued an
+  order, which it calls the <b>Innovation Exemption</b>, exempting certain venues that trade
+  blockchain versions of US listed stocks through automated liquidity pools from the definition of
+  an exchange, and certain firms that supply those pools from the definition of a dealer. The order
+  took effect on issue and runs until 17 September 2031, subject to conditions. It also asks for
+  public comment on how the exemptions should be changed. The comment file has no closing date.
+  Read the <a href="https://www.sec.gov/files/rules/exorders/2026/34-106402.pdf">order (PDF)</a> or browse the
+  <a href="https://www.sec.gov/rules-regulations/public-comments/4-927">comment file</a> on sec.gov.</p>
+  <p>This tracker records every comment letter on that file and, for each part of the order a letter
+  engages, two things: its <b>stance</b> on the order as granted, and the <b>direction</b> in which it
+  would move the exemption. The second is recorded because letters that ask for changes can ask for
+  opposite things, some for wider relief and some for stricter conditions, and a single
+  support-or-oppose scale cannot separate them.</p>
+  <details class="acc"><summary><span><b>Who made this</b></span></summary><div class="body"><p>Prepared by <a href="https://mrterinc.github.io/">Mert Erinc</a>, BI Norwegian Business School, as a public service. It is a companion to the <a href="https://mrterinc.github.io/sec-reg-crypto-tracker/">Regulation Crypto Assets (S7-2026-27)</a> tracker and part of a series with Tzachi Zach’s trackers on <a href="https://tzachizach.github.io/sec-semi-annual-proposal-tracker/">Semiannual reporting (S7-2026-15)</a>, <a href="https://tzachizach.github.io/sec-filer-status-tracker/">Filer status (S7-2026-18)</a> and <a href="https://tzachizach.github.io/sec-climate-rescission-tracker/">Climate rescission (S7-2026-19)</a> proposals.</p><p>Thanks to <a href="https://fisher.osu.edu/people/zach.7">Tzachi Zach</a> for his guidance on designing the workflow behind the tracker. The website was developed with the help of Claude. The mistakes are mine.</p><p>Corrections and suggestions are welcome at <a href="mailto:mert.erinc@bi.no">mert.erinc@bi.no</a>.</p></div></details>
+  <div class="meta">
+    <span>No closing date for comments</span>
+    <span>Comment file last checked 2026-10-01</span>
+    <span>Federal Register: 91 FR 60168, published 22 September 2026</span>
+  </div>
+</div></div><div class="wrap"><h2 id="background">Background</h2><div class="card"><details class="acc"><summary><span><b>What the order does</b> &nbsp;the venues, the liquidity providers and the conditions</span></summary><div class="body">
+<p>In the United States a system that brings together the orders of many buyers and sellers of
+securities is an <b>exchange</b>, and must register as one or operate as a regulated alternative
+trading system. A firm in the business of buying and selling securities for its own account is a
+<b>dealer</b>, and must register as a broker-dealer. Section 36 of the Securities Exchange Act lets
+the Commission exempt persons or transactions from any provision of the Act, by order and on
+conditions, where it finds that to be in the public interest and consistent with the protection of
+investors. An exemptive order of this kind takes effect without first being proposed for comment.
+The order on this comment file is one.</p>
+
+<p>It concerns <b>Tokenized NMS Stock</b>: a token on a blockchain that represents an ordinary
+exchange-listed US stock (NMS stands for national market system), made either by the company that
+issued the stock or by an unaffiliated third party. Tokens that only track a stock's price, such as
+linked notes or derivatives, are excluded. The venues it covers, <b>Tokenized Securities
+Venues</b> (TSVs), trade such tokens through <b>automated market makers</b>: smart contracts that
+hold a pool of two assets and price each trade from the ratio between them, with no order book.
+Access to a TSV is permissioned, so only approved wallet addresses can trade, but its smart
+contracts must be public and run on a public, permissionless blockchain.</p>
+
+<p>A TSV that meets the order's conditions is exempt from the definition of an exchange. The
+conditions include being a U.S. person; posting a public notice describing the venue, its fees,
+risks and procedures; giving the issuer of a third-party-tokenized stock 30 days' notice, with the
+issuer able to object; verifying that each token carries the same rights as the underlying share;
+limits on how many stocks it may trade and on its share of each stock's trading volume; publishing
+trade data within ten minutes; stopping trading when the stock's listing exchange does; no lending
+or margin; and keeping records available to Commission staff. A separate exemption from the
+definition of a dealer covers <b>Covered Firms</b> that supply the pools from their own capital,
+on conditions of their own. Both exemptions run to 17 September 2031.</p>
+
+<p>The order follows the January 2026 staff Statement on Tokenized Securities in distinguishing
+issuer-sponsored from third-party tokens. Its final section asks ten numbered questions about
+modifying, extending or ending the exemptions. On the day the order was issued, Chairman Atkins
+(<a href="https://www.sec.gov/newsroom/speeches-statements/atkins-innovation-exemption-bridge-toward-durable-rulemaking-091726">statement</a>),
+Commissioner Peirce (<a href="https://www.sec.gov/newsroom/speeches-statements/peirce-slumber-number-innovation-exemption-statement-091726">statement</a>)
+and Commissioner Uyeda (<a href="https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-innovation-exemption-091726">statement</a>)
+issued statements on it. A companion tracker covers the Commission's separate proposal,
+<a href="https://mrterinc.github.io/sec-reg-crypto-tracker/">Regulation Crypto Assets</a>, which concerns offerings of crypto
+assets rather than trading of tokenized stock.</p>
+</div></details></div><h2 id="methodology">Methodology</h2><div class="card"><details class="acc"><summary><span><b>How the coding works</b> &nbsp;the two axes, the three raters, and what keeps the record stable</span></summary><div class="body">
+<p>Every letter is read and, for each part of the order it engages, two values are recorded.
+<b>Stance</b> is Support, Oppose or Conditional relative to the order as granted: Support accepts that
+part as it stands, Conditional accepts it subject to changes, and Oppose rejects it as granted.
+<b>Direction</b> is Loosen, Tighten, Clarify or As-granted. Loosen makes the exemption available to
+more venues, securities, participants, volume or time, or eases a condition; Tighten narrows it or
+adds a condition or required content; Clarify asks the Commission to say how an existing condition
+applies without changing what it requires. A request framed as a clarification that would, if
+granted, take a class of conduct or person outside the order is recorded as loosening, and a request
+that the notice or the published data include something new is recorded as tightening however the
+letter describes it.</p>
+<p>Each letter is read three times, by three Claude raters given different instructions: one reading
+in good faith and in context, one taking only what the letter says explicitly, and one setting the
+framing aside to ask what the request would do if granted. All three votes are kept and the label is
+the majority, so the level of agreement can be measured rather than asserted; it is reported
+<a href="#where-the-raters-disagreed">further down this page</a>. Every stance carries a verbatim
+quote from the letter and every direction call carries its reason, and both are published, letter by
+letter, on <a href="evidence.html">the evidence page</a>.</p>
+<p>The coding rules were set before any letter was coded, tested on a pilot batch and then fixed.
+Every row records the version it was coded under; if the rules change, every letter already coded
+is checked against the new rule in the same pass. Source documents are archived when they arrive,
+with a checksum, and attachments are archived with the letter they belong to. Letters are numbered
+by date of filing, and numbering is stable: a late-posted letter takes the next free number.
+A form letter is one row, with its number of copies recorded beside it.</p>
+<p>Each letter also carries a <b>Frame</b>, which records where the changes it asks for would be
+made: in this order (<i>on-instrument</i>), in another rulemaking (<i>other rulemaking</i>), in the
+regulation of trading markets or systemic risk (<i>market structure or systemic risk</i>), or in no
+particular rule (<i>non-specific</i>). Frame does not change how any position is coded.</p>
+</div></details></div><h2 id="at-a-glance">At a glance</h2><div class="tiles"><div class="tile"><div class="v">28</div><div class="k">Comment letters in the corpus</div><div class="s">20 engage at least one part of the order</div></div><div class="tile"><div class="v">10</div><div class="k">Numbered questions answered so far</div><div class="s">of the 10 the Commission asked</div></div></div><h2 id="stance-overall-character-of-the-comment-file">Stance: overall character of the comment file</h2><div class="card"><div class="legend"><span><i style="background:var(--support)"></i>Support <span class="lgn">1 · 4%</span></span><span><i style="background:var(--conditional)"></i>Conditional <span class="lgn">19 · 68%</span></span><span><i style="background:var(--chart-g2)"></i>No position <span class="lgn">1 · 4%</span></span><span><i style="background:repeating-linear-gradient(135deg, var(--chart-g2) 0 2px, var(--surface) 2px 6px)"></i>Off-topic <span class="lgn">4 · 14%</span></span><span><i style="background:var(--oppose)"></i>Oppose <span class="lgn">3 · 11%</span></span></div><div class="stack"><span style="width:3.571%;background:var(--support);color:#0b0b0b" title="Support: 1 of 28 (4%)"></span><span style="width:67.857%;background:var(--conditional);color:var(--ink)" title="Conditional: 19 of 28 (68%)">68%</span><span style="width:3.571%;background:var(--chart-g2);color:var(--on-g2)" title="No position: 1 of 28 (4%)"></span><span style="width:14.286%;background:repeating-linear-gradient(135deg, var(--chart-g2) 0 2px, var(--surface) 2px 6px);color:var(--ink)" title="Off-topic: 4 of 28 (14%)"></span><span style="width:10.714%;background:var(--oppose);color:#0b0b0b" title="Oppose: 3 of 28 (11%)"></span></div><button class="tog" data-toggle="tbl-overall">Show table</button><div id="tbl-overall" hidden><table><thead><tr><th>Label</th><th class="n">Letters</th><th class="n">Share</th></tr></thead><tbody><tr><td>Support</td><td class='n'>1</td><td class='n'>4%</td></tr><tr><td>Conditional</td><td class='n'>19</td><td class='n'>68%</td></tr><tr><td>Mixed</td><td class='n'>0</td><td class='n'>0%</td></tr><tr><td>Procedural</td><td class='n'>0</td><td class='n'>0%</td></tr><tr><td>No position</td><td class='n'>1</td><td class='n'>4%</td></tr><tr><td>Off-topic</td><td class='n'>4</td><td class='n'>14%</td></tr><tr><td>Oppose</td><td class='n'>3</td><td class='n'>11%</td></tr></tbody></table></div><p class="note">This label is a tally across every part of the order a letter engages, not a reading of its tone. A letter that supports one part and opposes another is <b>Mixed</b>; one that accepts the order and asks for changes to it is <b>Conditional</b>. <b>No position</b> means the letter addresses the subject without taking a position on the order; <b>Off-topic</b> means it addresses something else. Each letter’s part-by-part calls are on <a href="evidence.html">the evidence page</a>.</p></div><h2 id="posture-which-way-the-comment-file-pushes">Posture: which way the comment file pushes</h2><div class="card"><div class="legend"><span><i style="background:var(--loosen)"></i>Loosening <span class="lgn">4 · 14%</span></span><span><i style="background:repeating-linear-gradient(45deg, var(--loosen) 0 4px, var(--tighten) 4px 8px)"></i>Mixed-direction <span class="lgn">4 · 14%</span></span><span><i style="background:var(--chart-g1)"></i>Clarifying <span class="lgn">1 · 4%</span></span><span><i style="background:var(--chart-g2)"></i>As-granted <span class="lgn">1 · 4%</span></span><span><i style="background:var(--tighten)"></i>Tightening <span class="lgn">10 · 36%</span></span><span><i style="background:repeating-linear-gradient(135deg, var(--chart-g2) 0 2px, var(--surface) 2px 6px)"></i>n-a <span class="lgn">8 · 29%</span></span></div><div class="stack"><span style="width:14.286%;background:var(--loosen);color:#0b0b0b" title="Loosening: 4 of 28 (14%)">14%</span><span style="width:14.286%;background:repeating-linear-gradient(45deg, var(--loosen) 0 4px, var(--tighten) 4px 8px);color:var(--ink)" title="Mixed-direction: 4 of 28 (14%)"></span><span style="width:3.571%;background:var(--chart-g1);color:var(--on-g1)" title="Clarifying: 1 of 28 (4%)"></span><span style="width:3.571%;background:var(--chart-g2);color:var(--on-g2)" title="As-granted: 1 of 28 (4%)"></span><span style="width:35.714%;background:var(--tighten);color:#0b0b0b" title="Tightening: 10 of 28 (36%)">36%</span><span style="width:28.571%;background:repeating-linear-gradient(135deg, var(--chart-g2) 0 2px, var(--surface) 2px 6px);color:var(--ink)" title="n-a: 8 of 28 (29%)"></span></div><button class="tog" data-toggle="tbl-posture">Show table</button><div id="tbl-posture" hidden><table><thead><tr><th>Label</th><th class="n">Letters</th><th class="n">Share</th></tr></thead><tbody><tr><td>Loosening</td><td class='n'>4</td><td class='n'>14%</td></tr><tr><td>Mixed-direction</td><td class='n'>4</td><td class='n'>14%</td></tr><tr><td>Clarifying</td><td class='n'>1</td><td class='n'>4%</td></tr><tr><td>As-granted</td><td class='n'>1</td><td class='n'>4%</td></tr><tr><td>Tightening</td><td class='n'>10</td><td class='n'>36%</td></tr><tr><td>n-a</td><td class='n'>8</td><td class='n'>29%</td></tr></tbody></table></div><p class="note">Stance and direction are separate questions, and this bar answers the second: how a letter would change the exemption, not whether it is friendly to the order. Asking that other kinds of securities be admitted is a <b>loosening</b> ask; asking that the venue publish more data is a <b>tightening</b> one. A letter that asks for both is <b>Mixed-direction</b>; one that asks only for the Commission to say how an existing condition applies is <b>Clarifying</b>; one that supports what it engages as granted is <b>As-granted</b>; and one that engages no part of the order is shown as <b>n-a</b> rather than left off the bar. Posture is computed from the nineteen parts of the order (E1 to E19); the whole-letter reading (GEN) and the two code lists (C1, C2) are not parts of the order and are left out. To see which passage produced any single call, follow a letter through to <a href="evidence.html">the evidence behind each letter</a>.</p></div><h2 id="posture-by-commenter-type">Posture by commenter type</h2><div class="card"><p style="margin-top:0">The same postures as the bar above, split by who filed. Each column is shaded in its own posture’s colour and the depth of the shade is that cell’s share <i>within</i> its row, so read across a row and not down a column: the rows have very different sizes.</p><div class="scroll"><table class="xtab"><thead><tr><th class="rh"></th><th class="ch">Loosening</th><th class="ch">Mixed-direction</th><th class="ch">Clarifying</th><th class="ch">As-granted</th><th class="ch">Tightening</th><th class="ch">n-a</th></tr></thead><tbody><tr class=""><th class="rh">Individual<small>11 letters</small></th><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell on" style="--c:var(--tighten);--a:0.43;color:var(--ink)" title="Individual, Tightening: 4 of 11 (36%)">4</span></td><td><span class="cell on" style="--c:var(--baseline);--a:0.63;color:var(--ink)" title="Individual, n-a: 7 of 11 (64%)">7</span></td></tr><tr class=""><th class="rh">Technology or infrastructure<small>6 letters</small></th><td><span class="cell">&middot;</span></td><td><span class="cell on" style="--c:var(--chart-g1);--a:0.28;color:var(--ink)" title="Technology or infrastructure provider, Mixed-direction: 1 of 6 (17%)">1</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell on" style="--c:var(--tighten);--a:0.65;color:#0b0b0b" title="Technology or infrastructure provider, Tightening: 4 of 6 (67%)">4</span></td><td><span class="cell on" style="--c:var(--baseline);--a:0.28;color:var(--ink)" title="Technology or infrastructure provider, n-a: 1 of 6 (17%)">1</span></td></tr><tr class="small"><th class="rh">Tokenization platform or transfer agent<small>4 letters, too few to shade</small></th><td><span class="cell thin" title="Tokenization platform or transfer agent, Loosening: 2">2</span></td><td><span class="cell thin" title="Tokenization platform or transfer agent, Mixed-direction: 1">1</span></td><td><span class="cell thin" title="Tokenization platform or transfer agent, Clarifying: 1">1</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td></tr><tr class="small"><th class="rh">Public company<small>2 letters, too few to shade</small></th><td><span class="cell thin" title="Public company (issuer of a listed or quoted security), Loosening: 1">1</span></td><td><span class="cell thin" title="Public company (issuer of a listed or quoted security), Mixed-direction: 1">1</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td></tr><tr class="small"><th class="rh">Academic researcher (finance)<small>1 letter, too few to shade</small></th><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell thin" title="Academic researcher - finance, accounting or economics, Tightening: 1">1</span></td><td><span class="cell">&middot;</span></td></tr><tr class="small"><th class="rh">Academic researcher (law)<small>1 letter, too few to shade</small></th><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell thin" title="Academic researcher - law, As-granted: 1">1</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td></tr><tr class="small"><th class="rh">Crypto investor or venture fund<small>1 letter, too few to shade</small></th><td><span class="cell thin" title="Crypto investor or venture fund, Loosening: 1">1</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td></tr><tr class="small"><th class="rh">Lawyer or law firm<small>1 letter, too few to shade</small></th><td><span class="cell">&middot;</span></td><td><span class="cell thin" title="Legal practitioner or law firm, Mixed-direction: 1">1</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td></tr><tr class="small"><th class="rh">Organised retail campaign<small>1 letter, too few to shade</small></th><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell">&middot;</span></td><td><span class="cell thin" title="Organised retail campaign, Tightening: 1">1</span></td><td><span class="cell">&middot;</span></td></tr></tbody></table></div><p class="note">Rows of fewer than 5 letters are shown as plain counts inside a dashed cell rather than shaded, because at one or two letters a dark cell would read as a pattern. On this corpus two rows are large enough to shade: individuals (11 letters: 4 tightening, 7 engaging no part of the order); technology or infrastructure providers (6 letters: 1 mixed-direction, 4 tightening, 1 engaging no part of the order). That is a description of who has filed by today, not a claim about why.</p></div><h2 id="where-commenters-stand-part-by-part">Where commenters stand, part by part</h2><div class="card"><p style="margin-top:0">The order is set out here as nineteen parts, E1 to E19, each one a definition or condition of the exemptions, followed by an overall reading of each letter (GEN). <b>Click any row to expand it</b> for what it covers in plain words, the section of the order it comes from, and the numbered questions attached to it. Each bar shows the letters engaging that part, extending left for those asking the Commission to loosen the exemption there and right for those asking it to tighten it.</p><div class="legend"><span><i style="background:var(--loosen)"></i>Would loosen the exemption</span><span><i style="background:var(--chart-g2)"></i>Supports it as granted, or asks only for clarification</span><span><i style="background:var(--tighten)"></i>Would tighten the exemption</span></div><details class="elx"><summary class="elrow"><div class="code">E1<small>I.A</small></div><div><div class="ellab">TSV definition and scope</div><div class="dbar"><span class="seg l" style="right:50.000%;width:12.000%;background:var(--loosen)" title="Asks to loosen: 2"></span></div></div><div class="cnt"><b>2</b> engaged<br><span style="color:var(--muted)">2 loosen · 0 tighten</span><br><span class="agrn">1 rater split</span></div></summary><div class="elbody"><p>A Tokenized Securities Venue (TSV) is an organisation, association or group of persons that provides AMM Liquidity Pools for permissioned participants and sets the standards for who may trade. Being a TSV exempts it from the definition of “exchange”, so it registers neither as an exchange nor as an alternative trading system. In an automated market maker (AMM) a smart contract holds a pool of two assets and prices trades from the ratio between them; there is no order book. Letters here concern what the definition reaches, including who “provides” a pool and how the order bears on pools that no one operates.</p><p class="scope"><b>How requests framed as clarifications are coded.</b> A request that the Commission confirm something, where the confirmation would take a class of conduct or person outside the order, is recorded as loosening. A request that resolves an ambiguity without changing what is caught is recorded as clarifying.</p><p class="rat"><b>Order section</b> I.A, I.B &nbsp;&middot;&nbsp; <b>Numbered questions</b> 1, 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 2 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E2<small>I.B</small></div><div><div class="ellab">Eligible securities</div><div class="dbar"><span class="seg" style="left:44.000%;width:12.000%;background:var(--chart-g2)" title="No directional push: 2"></span><span class="seg l" style="right:56.000%;width:36.000%;background:var(--loosen)" title="Asks to loosen: 6"></span></div></div><div class="cnt"><b>8</b> engaged<br><span style="color:var(--muted)">6 loosen · 0 tighten</span><br><span class="agrn">3 rater splits</span></div></summary><div class="elbody"><p>The order applies to Tokenized NMS Stock: a blockchain version of an ordinary US exchange-listed stock (NMS stands for national market system), made by the issuer itself or by an unaffiliated third party. Products that give synthetic exposure, such as linked notes or derivatives, are excluded. Question 4 asks whether other securities should be admitted.</p><p class="rat"><b>Order section</b> I.B &nbsp;&middot;&nbsp; <b>Numbered questions</b> 4 &nbsp;&middot;&nbsp; <b>Coded so far</b> 2 Support &middot; 0 Oppose &middot; 6 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E3<small>I.B</small></div><div><div class="ellab">Trading pairs</div><div class="dbar"><span class="seg r" style="left:50.000%;width:6.000%;background:var(--tighten)" title="Asks to tighten: 1"></span></div></div><div class="cnt"><b>1</b> engaged<br><span style="color:var(--muted)">0 loosen · 1 tighten</span></div></summary><div class="elbody"><p>A Tokenized NMS Stock may trade against another Tokenized NMS Stock, a non-security crypto asset such as a payment stablecoin, or a tokenized money market fund. Pools of two crypto assets are not permitted.</p><p class="rat"><b>Order section</b> I.B &nbsp;&middot;&nbsp; <b>Numbered questions</b> 4 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 1 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E4<small>I.B</small></div><div><div class="ellab">Participant access and permissioning</div><div class="dbar"><span class="seg" style="left:47.000%;width:6.000%;background:var(--chart-g2)" title="No directional push: 1"></span><span class="seg l" style="right:53.000%;width:6.000%;background:var(--loosen)" title="Asks to loosen: 1"></span><span class="seg r" style="left:53.000%;width:12.000%;background:var(--tighten)" title="Asks to tighten: 2"></span></div></div><div class="cnt"><b>4</b> engaged<br><span style="color:var(--muted)">1 loosen · 2 tighten</span><br><span class="agrn">3 rater splits</span></div></summary><div class="elbody"><p>A TSV sets the standards for who may trade, for example by allowing only wallet addresses that meet credentialing requirements. Screening may be done off-chain or encoded in a smart contract, and may be performed by a service provider while the TSV remains responsible. Letters here concern how and when access is checked, what record each check leaves, and the position of firms that provide identity, funding or wallet services to participants.</p><p class="rat"><b>Order section</b> I.B, III.e-f &nbsp;&middot;&nbsp; <b>Numbered questions</b> 1, 5, 7 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 4 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E5<small>II.A</small></div><div><div class="ellab">Distributed ledger applications</div><div class="dbar"><span class="seg" style="left:47.000%;width:6.000%;background:var(--chart-g2)" title="No directional push: 1"></span><span class="seg r" style="left:53.000%;width:12.000%;background:var(--tighten)" title="Asks to tighten: 2"></span></div></div><div class="cnt"><b>3</b> engaged<br><span style="color:var(--muted)">0 loosen · 2 tighten</span><br><span class="agrn">2 rater splits</span></div></summary><div class="elbody"><p>A TSV’s smart contracts must be auditable and public, and deployed on a public, permissionless distributed ledger. The order states that permissionless generally means that anyone can read or write to the ledger without authorization. Access to trading on the TSV remains permissioned.</p><p class="rat"><b>Order section</b> II.A &nbsp;&middot;&nbsp; <b>Numbered questions</b> 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 1 Support &middot; 0 Oppose &middot; 2 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E6<small>II.B</small></div><div><div class="ellab">U.S. person and OFAC</div><div class="dbar"><span class="seg" style="left:47.000%;width:6.000%;background:var(--chart-g2)" title="No directional push: 1"></span><span class="seg l" style="right:53.000%;width:6.000%;background:var(--loosen)" title="Asks to loosen: 1"></span></div></div><div class="cnt"><b>2</b> engaged<br><span style="color:var(--muted)">1 loosen · 0 tighten</span><br><span class="agrn">1 rater split</span></div></summary><div class="elbody"><p>A TSV must be a U.S. person and comply with the sanctions programs administered by the Office of Foreign Assets Control.</p><p class="rat"><b>Order section</b> II.B &nbsp;&middot;&nbsp; <b>Numbered questions</b> 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 1 Support &middot; 0 Oppose &middot; 1 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E7<small>II.C</small></div><div><div class="ellab">The public notice itself</div><div class="dbar"><span class="seg r" style="left:50.000%;width:30.000%;background:var(--tighten)" title="Asks to tighten: 5"></span></div></div><div class="cnt"><b>5</b> engaged<br><span style="color:var(--muted)">0 loosen · 5 tighten</span></div></summary><div class="elbody"><p>At least 30 days before operating, a TSV must post a notice on its website and tell the Commission. The notice covers some thirty items, from fees and risks to how the TSV verified the tokens it lists, and must be revised after listed events, before material changes and quarterly, with every version kept. A request to add content on a particular subject is counted under that subject; this row holds requests about the notice itself: its timing, its updates and its format.</p><p class="scope"><b>How requests for more disclosure are coded.</b> A request that the notice or the published data include something new is recorded as tightening, however the letter describes it. A request that the Commission confirm how an existing item may be met is recorded as clarifying.</p><p class="rat"><b>Order section</b> II.C, III &nbsp;&middot;&nbsp; <b>Numbered questions</b> 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 5 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E8<small>II.D</small></div><div><div class="ellab">Issuer notice and objection</div><div class="dbar"><span class="seg r" style="left:50.000%;width:18.000%;background:var(--tighten)" title="Asks to tighten: 3"></span></div></div><div class="cnt"><b>3</b> engaged<br><span style="color:var(--muted)">0 loosen · 3 tighten</span><br><span class="agrn">1 rater split</span></div></summary><div class="elbody"><p>Before listing a stock tokenized by an unaffiliated third party, a TSV must give the issuer of the underlying stock 30 days’ written notice. A timely objection from the issuer prevents the listing. Stock tokenized by or on behalf of the issuer is not subject to this condition.</p><p class="rat"><b>Order section</b> II.D &nbsp;&middot;&nbsp; <b>Numbered questions</b> 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 3 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E9<small>II.E</small></div><div><div class="ellab">Same rights and the token-to-share link</div><div class="dbar"><span class="seg" style="left:44.000%;width:12.000%;background:var(--chart-g2)" title="No directional push: 2"></span><span class="seg r" style="left:56.000%;width:42.000%;background:var(--tighten)" title="Asks to tighten: 7"></span></div></div><div class="cnt"><b>9</b> engaged<br><span style="color:var(--muted)">0 loosen · 7 tighten</span><br><span class="agrn">2 rater splits</span></div></summary><div class="elbody"><p>A TSV must verify that each token carries the same rights as a share of the same class: the same interest in the company, the same dividends, the same voting rights and the same share of assets on liquidation. Only secondary trading is permitted, and offers and sales must comply with the Securities Act. Letters here also concern the records behind the token: who holds the underlying shares, how token supply is reconciled to them, and how dividends and votes reach the holder.</p><p class="rat"><b>Order section</b> II.E, III.h-i &nbsp;&middot;&nbsp; <b>Numbered questions</b> 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 2 Support &middot; 0 Oppose &middot; 7 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E10<small>II.F</small></div><div><div class="ellab">Symbol and volume limits</div><div class="dbar"><span class="seg" style="left:44.000%;width:12.000%;background:var(--chart-g2)" title="No directional push: 2"></span><span class="seg r" style="left:56.000%;width:6.000%;background:var(--tighten)" title="Asks to tighten: 1"></span></div></div><div class="cnt"><b>3</b> engaged<br><span style="color:var(--muted)">0 loosen · 1 tighten</span><br><span class="agrn">3 rater splits</span></div></summary><div class="elbody"><p>Tier 1 stocks (S&amp;P 500 and Russell 1000 constituents and some exchange-traded products) are limited to 75 symbols per TSV and 0.25 percent of the stock’s prior-month average daily volume; Tier 2 stocks (other NMS stocks) to 250 symbols and 2.5 percent. A first breach of a volume limit requires no action; each later breach pauses trading in that symbol for three months.</p><p class="rat"><b>Order section</b> II.F &nbsp;&middot;&nbsp; <b>Numbered questions</b> 3, 6 &nbsp;&middot;&nbsp; <b>Coded so far</b> 1 Support &middot; 0 Oppose &middot; 2 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E11<small>II.G</small></div><div><div class="ellab">Transaction transparency</div><div class="dbar"><span class="seg r" style="left:50.000%;width:36.000%;background:var(--tighten)" title="Asks to tighten: 6"></span></div></div><div class="cnt"><b>6</b> engaged<br><span style="color:var(--muted)">0 loosen · 6 tighten</span><br><span class="agrn">1 rater split</span></div></summary><div class="elbody"><p>A TSV must publish, free of charge and in machine-readable form, data on every trade of the past 30 days, in US dollars, updated within ten minutes of each trade.</p><p class="rat"><b>Order section</b> II.G &nbsp;&middot;&nbsp; <b>Numbered questions</b> 3, 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 6 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E12<small>II.H</small></div><div><div class="ellab">Stoppage of trading</div><div class="dbar"><span class="seg r" style="left:50.000%;width:18.000%;background:var(--tighten)" title="Asks to tighten: 3"></span></div></div><div class="cnt"><b>3</b> engaged<br><span style="color:var(--muted)">0 loosen · 3 tighten</span></div></summary><div class="elbody"><p>A TSV must stop trading a Tokenized NMS Stock whenever the primary listing exchange stops trading in the underlying stock.</p><p class="rat"><b>Order section</b> II.H &nbsp;&middot;&nbsp; <b>Numbered questions</b> 3, 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 3 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E13<small>II.I</small></div><div><div class="ellab">Significant operational events</div><div class="dbar"></div></div><div class="cnt"><span class="empty">none yet</span></div></summary><div class="elbody"><p>A TSV must notify its participants immediately, and the Commission promptly, of a significant operational event, and must remediate it.</p><p class="rat"><b>Order section</b> II.I &nbsp;&middot;&nbsp; <b>Numbered questions</b> 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 0 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E14<small>II.J</small></div><div><div class="ellab">No leverage</div><div class="dbar"></div></div><div class="cnt"><span class="empty">none yet</span></div></summary><div class="elbody"><p>No margin or credit may be extended on a TSV, and assets on it may not be borrowed or hypothecated.</p><p class="rat"><b>Order section</b> II.J &nbsp;&middot;&nbsp; <b>Numbered questions</b> 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 0 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E15<small>II.K</small></div><div><div class="ellab">No misrepresentation and public disclaimer</div><div class="dbar"></div></div><div class="cnt"><span class="empty">none yet</span></div></summary><div class="elbody"><p>A TSV may not state that it is registered with, or approved by, the Commission, and its notice must state that it is not registered.</p><p class="rat"><b>Order section</b> II.K &nbsp;&middot;&nbsp; <b>Numbered questions</b> 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 0 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E16<small>II.L</small></div><div><div class="ellab">Books and records</div><div class="dbar"><span class="seg" style="left:47.000%;width:6.000%;background:var(--chart-g2)" title="No directional push: 1"></span></div></div><div class="cnt"><b>1</b> engaged<br><span style="color:var(--muted)">0 loosen · 0 tighten</span><br><span class="agrn">1 rater split</span></div></summary><div class="elbody"><p>A TSV must keep specified records while the exemption runs and for three years after, in the United States, and make them available to Commission staff on request. Records kept on a distributed ledger qualify if staff can read them.</p><p class="rat"><b>Order section</b> II.L &nbsp;&middot;&nbsp; <b>Numbered questions</b> 5 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 1 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E17<small>IV</small></div><div><div class="ellab">Covered Firm exemption</div><div class="dbar"><span class="seg" style="left:47.000%;width:6.000%;background:var(--chart-g2)" title="No directional push: 1"></span><span class="seg l" style="right:53.000%;width:6.000%;background:var(--loosen)" title="Asks to loosen: 1"></span><span class="seg r" style="left:53.000%;width:12.000%;background:var(--tighten)" title="Asks to tighten: 2"></span></div></div><div class="cnt"><b>4</b> engaged<br><span style="color:var(--muted)">1 loosen · 2 tighten</span></div></summary><div class="elbody"><p>A Covered Firm supplies Tokenized NMS Stock to TSV pools from its own capital and is exempt from the definition of “dealer”. Its securities activity is limited to TSV pools; it trades only for its own account, holds no customer assets, keeps records, states on its website that it is not a registered broker-dealer, and notifies the Commission.</p><p class="rat"><b>Order section</b> IV &nbsp;&middot;&nbsp; <b>Numbered questions</b> 8, 10 &nbsp;&middot;&nbsp; <b>Coded so far</b> 1 Support &middot; 0 Oppose &middot; 3 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E18<small>V</small></div><div><div class="ellab">Duration and permanence</div><div class="dbar"><span class="seg" style="left:42.000%;width:16.000%;background:var(--chart-g2)" title="No directional push: 3"></span><span class="seg l" style="right:58.000%;width:12.000%;background:var(--loosen)" title="Asks to loosen: 2"></span></div></div><div class="cnt"><b>5</b> engaged<br><span style="color:var(--muted)">2 loosen · 0 tighten</span><br><span class="agrn">2 rater splits</span></div></summary><div class="elbody"><p>Both exemptions run from 17 September 2026 to 17 September 2031, and the Commission may change their length or any other aspect. A request for a permanent or longer exemption is recorded as loosening, and a request for a shorter one as tightening.</p><p class="rat"><b>Order section</b> V &nbsp;&middot;&nbsp; <b>Numbered questions</b> 2, 9 &nbsp;&middot;&nbsp; <b>Coded so far</b> 3 Support &middot; 0 Oppose &middot; 2 Conditional</p></div></details><details class="elx"><summary class="elrow"><div class="code">E19<small>I.B</small></div><div><div class="ellab">Registered firms as participants; Regulation NMS relief</div><div class="dbar"><span class="seg" style="left:47.000%;width:6.000%;background:var(--chart-g2)" title="No directional push: 1"></span></div></div><div class="cnt"><b>1</b> engaged<br><span style="color:var(--muted)">0 loosen · 0 tighten</span></div></summary><div class="elbody"><p>A registered firm may operate a TSV through an affiliate and must keep its registered activity separate; broker-dealers trading on a TSV keep their usual obligations, such as best execution. Question 7 asks what keeps regulated firms from taking part, and whether broker-dealer participants need relief from Regulation NMS, the rules governing trading in NMS stocks.</p><p class="rat"><b>Order section</b> I.B, VI &nbsp;&middot;&nbsp; <b>Numbered questions</b> 7 &nbsp;&middot;&nbsp; <b>Coded so far</b> 0 Support &middot; 0 Oppose &middot; 1 Conditional</p></div></details><h3 style="margin-top:22px;font-size:14px">GEN &middot; The order as a whole</h3><p class="note" style="margin-top:0">23 of the 24 letters read here take a position on the order.</p><div class="legend"><span><i style="background:var(--support)"></i>Support <span class="lgn">1 · 4%</span></span><span><i style="background:var(--conditional)"></i>Conditional <span class="lgn">19 · 79%</span></span><span><i style="background:var(--oppose)"></i>Oppose <span class="lgn">3 · 12%</span></span><span><i style="background:var(--chart-g2)"></i>No position <span class="lgn">1 · 4%</span></span></div><div class="stack sb"><span style="width:4.167%;background:var(--support)" title="Support: 1 of 24"></span><span style="width:79.167%;background:var(--conditional)" title="Conditional: 19 of 24"></span><span style="width:12.500%;background:var(--oppose)" title="Oppose: 3 of 24"></span><span style="width:4.167%;background:var(--chart-g2)" title="No position: 1 of 24"></span></div><div class="elbody stand"><p>Not part of the order. This is the letter’s position on the order as a whole, read from its opening thesis and its closing ask. A warm opening does not by itself make a letter Support: asking for a change is what decides it. A letter whose thesis is that the order fails its stated purpose, and that asks for nothing that would keep it, is recorded as Oppose. It carries a stance and no direction.</p><p class="rat"><b>Numbered questions</b> 1</p></div><h3 style="margin-top:22px;font-size:14px">C1 · Process and authority</h3><p class="note" style="margin-top:0">Not a dial: a closed list rather than a two-sided bar. 5 letters carry a code here; a letter may carry more than one code, so the column can sum above that.</p><table><thead><tr><th>Code</th><th class="n">Letters</th></tr></thead><tbody><tr><td>Authority challenged</td><td class="n">1</td></tr><tr><td>Authority defended</td><td class="n">0</td></tr><tr><td>Rulemaking preferred</td><td class="n">4</td></tr><tr><td>Coordination with other agencies</td><td class="n">0</td></tr><tr><td>Procedural objection</td><td class="n">0</td></tr></tbody></table><div class="elbody stand"><p>Whether the Commission should act by exemptive order or by rulemaking, whether it has authority to grant this relief, and coordination with other agencies. Recorded as a closed list of positions rather than a direction.</p></div><h3 style="margin-top:22px;font-size:14px">C2 · Outside the order</h3><p class="note" style="margin-top:0">Not a dial: a closed list rather than a two-sided bar. 7 letters carry a code here; a letter may carry more than one code, so the column can sum above that.</p><table><thead><tr><th>Code</th><th class="n">Letters</th></tr></thead><tbody><tr><td>Pools with no operator (DeFi)</td><td class="n">0</td></tr><tr><td>LP-token status</td><td class="n">0</td></tr><tr><td>Tokenized funds and the Investment Company Act</td><td class="n">2</td></tr><tr><td>Non-U.S. venues</td><td class="n">0</td></tr><tr><td>Tax and cost-basis reporting</td><td class="n">1</td></tr><tr><td>Regulation SHO and securities lending</td><td class="n">1</td></tr><tr><td>Clearing, settlement and transfer-agent infrastructure</td><td class="n">2</td></tr><tr><td>Securities Act transfer and resale</td><td class="n">1</td></tr><tr><td>Other</td><td class="n">2</td></tr></tbody></table><div class="elbody stand"><p>Matters a letter raises that lie outside the order, such as tax reporting, securities lending, clearing and settlement, or tokenized funds. Recorded as a closed list of topics rather than a direction.</p></div><p class="note">Below the bars sit the three entries that are not parts of the order: GEN, each letter’s reading of the order as a whole, and C1 and C2, where a point about process and authority, or a matter outside the order, is recorded as one of a fixed set of codes rather than as a point on a scale.</p></div><h2 id="where-the-raters-disagreed">Where the raters disagreed</h2><div class="card"><p style="margin-top:0">Every call is made three times, by raters with different postures: one reading in good faith and in context, one taking only what the letter says explicitly, and one discounting the framing to ask what the request would actually do. All three votes are kept and the label is the majority. This is where they parted company.</p><p><b>11 of 84</b> stance calls were split (13 percent), and <b>13 of 60</b> direction calls (22 percent). No split is hidden: the majority label the rest of this page counts is the one shown here.</p><button class="tog" data-toggle="agr">Show the split by part of the order</button><div id="agr" hidden><div class="legend" style="margin-top:12px"><span><span class="agr"><i></i></span>&nbsp;All three raters agreed</span><span><span class="agr"><i class="sp"></i></span>&nbsp;They split; the majority stands</span></div><p class="note" style="margin-top:0">One dot per coded row, hollow where the raters split. A single row can split on stance and on direction at once, which is why the counts on the right can exceed the hollow dots beside them.</p><div class="scroll"><table><thead><tr><th></th><th>Part</th><th class="n">Rows coded</th><th>Agreement</th><th>Where they split</th></tr></thead><tbody><tr><td><b>GEN</b></td><td style="font-size:12px">The order as a whole</td><td class="n">24</td><td style="min-width:120px"><span class="agr"><i class="sp"></i><i class="sp"></i><i class="sp"></i><i class="sp"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></td><td class="agrn">4 stance: letters 7, 14, 23, 26</td></tr><tr><td><b>E2</b></td><td style="font-size:12px">Eligible securities</td><td class="n">8</td><td style="min-width:120px"><span class="agr"><i class="sp"></i><i class="sp"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></td><td class="agrn">2 stance &middot; 1 direction: letters 10, 13</td></tr><tr><td><b>E4</b></td><td style="font-size:12px">Participant access and permissioning</td><td class="n">4</td><td style="min-width:120px"><span class="agr"><i class="sp"></i><i class="sp"></i><i class="sp"></i><i class=""></i></span></td><td class="agrn">3 direction: letters 3, 9, 19</td></tr><tr><td><b>E10</b></td><td style="font-size:12px">Symbol and volume limits</td><td class="n">3</td><td style="min-width:120px"><span class="agr"><i class="sp"></i><i class="sp"></i><i class=""></i></span></td><td class="agrn">1 stance &middot; 2 direction: letters 9, 28</td></tr><tr><td><b>E9</b></td><td style="font-size:12px">Same rights and the token-to-share link</td><td class="n">9</td><td style="min-width:120px"><span class="agr"><i class="sp"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></td><td class="agrn">1 stance &middot; 1 direction: letter 28</td></tr><tr><td><b>E18</b></td><td style="font-size:12px">Duration and permanence</td><td class="n">5</td><td style="min-width:120px"><span class="agr"><i class="sp"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></td><td class="agrn">1 stance &middot; 1 direction: letter 23</td></tr><tr><td><b>E5</b></td><td style="font-size:12px">Distributed ledger applications</td><td class="n">3</td><td style="min-width:120px"><span class="agr"><i class="sp"></i><i class="sp"></i><i class=""></i></span></td><td class="agrn">2 stance: letters 10, 20</td></tr><tr><td><b>E11</b></td><td style="font-size:12px">Transaction transparency</td><td class="n">6</td><td style="min-width:120px"><span class="agr"><i class="sp"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></td><td class="agrn">1 direction: letter 9</td></tr><tr><td><b>E8</b></td><td style="font-size:12px">Issuer notice and objection</td><td class="n">3</td><td style="min-width:120px"><span class="agr"><i class="sp"></i><i class=""></i><i class=""></i></span></td><td class="agrn">1 direction: letter 19</td></tr><tr><td><b>E1</b></td><td style="font-size:12px">TSV definition and scope</td><td class="n">2</td><td style="min-width:120px"><span class="agr"><i class="sp"></i><i class=""></i></span></td><td class="agrn">1 direction: letter 10</td></tr><tr><td><b>E6</b></td><td style="font-size:12px">U.S. person and OFAC</td><td class="n">2</td><td style="min-width:120px"><span class="agr"><i class="sp"></i><i class=""></i></span></td><td class="agrn">1 direction: letter 10</td></tr><tr><td><b>E16</b></td><td style="font-size:12px">Books and records</td><td class="n">1</td><td style="min-width:120px"><span class="agr"><i class="sp"></i></span></td><td class="agrn">1 direction: letter 19</td></tr><tr><td><b>C2</b></td><td style="font-size:12px">Outside the order</td><td class="n">7</td><td style="min-width:120px"><span class="agr"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></td><td class="agrn"><span style="color:var(--muted)">unanimous throughout</span></td></tr><tr><td><b>C1</b></td><td style="font-size:12px">Process and authority</td><td class="n">5</td><td style="min-width:120px"><span class="agr"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></td><td class="agrn"><span style="color:var(--muted)">unanimous throughout</span></td></tr><tr><td><b>E7</b></td><td style="font-size:12px">The public notice itself</td><td class="n">5</td><td style="min-width:120px"><span class="agr"><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></td><td class="agrn"><span style="color:var(--muted)">unanimous throughout</span></td></tr><tr><td><b>E17</b></td><td style="font-size:12px">Covered Firm exemption</td><td class="n">4</td><td style="min-width:120px"><span class="agr"><i class=""></i><i class=""></i><i class=""></i><i class=""></i></span></td><td class="agrn"><span style="color:var(--muted)">unanimous throughout</span></td></tr><tr><td><b>E12</b></td><td style="font-size:12px">Stoppage of trading</td><td class="n">3</td><td style="min-width:120px"><span class="agr"><i class=""></i><i class=""></i><i class=""></i></span></td><td class="agrn"><span style="color:var(--muted)">unanimous throughout</span></td></tr><tr><td><b>E19</b></td><td style="font-size:12px">Registered firms as participants; Regulation NMS relief</td><td class="n">1</td><td style="min-width:120px"><span class="agr"><i class=""></i></span></td><td class="agrn"><span style="color:var(--muted)">unanimous throughout</span></td></tr><tr><td><b>E3</b></td><td style="font-size:12px">Trading pairs</td><td class="n">1</td><td style="min-width:120px"><span class="agr"><i class=""></i></span></td><td class="agrn"><span style="color:var(--muted)">unanimous throughout</span></td></tr></tbody></table></div><p class="note">GEN carries the most split calls, 4. Two kinds of split recur. On definitions such as &ldquo;permissionless&rdquo;, a letter that supports the principle but calls the wording wrong reads as Conditional to two raters and as Oppose to the one who takes the text literally. And a request framed as a confirmation, where granting it would take a class of conduct or person outside the order, reads as loosening to two raters and as clarifying to the literal one. Both are recorded as they fall rather than smoothed over.</p></div></div><h2 id="which-of-the-10-questions-commenters-answered">Which of the 10 questions commenters answered</h2><div class="card"><div class="legend"><span><i style="background:transparent;border:1px solid var(--baseline);box-sizing:border-box"></i>Unanswered</span><span><i style="background:#cde2fb"></i>Answered, fewer letters</span><span><i style="background:#184f95"></i>Answered, more letters</span></div><p class="note" style="margin-top:0">Every cell is one of the Commission’s numbered questions; hover or tab to one to read it in full and see how many letters have answered it. Shading is how many letters. A letter is counted against a question only where it says it is answering that question. <b>0 of 10</b> have no answer on the file yet.</p><div class="rfcgroup"><div class="rfcgrid"><span class="rfc on pale" style="background:#6da7ec" tabindex="0" data-q="Question 1 (order section VI, 91 FR 60183). Should the Commission modify the TSV Exemption in any way? Why or why not? If so, describe how the TSV Exemption should be modified. (3 letters answered this).">1</span><span class="rfc on pale" style="background:#3987e5" tabindex="0" data-q="Question 2 (order section VI, 91 FR 60183). Should the TSV Exemption be permanent? If so, what conditions of the TSV Exemption should TSVs be subject to on a permanent basis? Is the length of the temporary TSV Exemption appropriate? If not, what should the duration be? (4 letters answered this).">2</span><span class="rfc on ink" style="background:#cde2fb" tabindex="0" data-q="Question 3 (order section VI, 91 FR 60183). How could trading of Tokenized NMS Stock on a TSV potentially impact the liquidity, pricing, or trading of underlying NMS stock in the broader market and how, if at all, should the TSV Exemption be potentially modified to account for any such impact? What effects could transaction reporting within ten minutes of the occurrence of a transaction and overnight trading have on market quality in underlying NMS stock, including on the market opening, reopening and closing processes of the exchanges? What, if any, modifications should be made to the TSV Exemption to account for such potential impacts? (1 letter answered this).">3</span><span class="rfc on pale" style="background:#184f95" tabindex="0" data-q="Question 4 (order section VI, 91 FR 60183). Should the TSV Exemption be modified to permit a TSV to trade securities other than Tokenized NMS Stock? Which types of securities should TSVs be limited to trading under the TSV Exemption? Should the non-security crypto assets or tokenized money market funds that are permitted to trade in pairs with Tokenized NMS Stock on a TSV be limited to certain types of non-security crypto assets or tokenized money market funds? (6 letters answered this).">4</span><span class="rfc on pale" style="background:#256abf" tabindex="0" data-q="Question 5 (order section VI, 91 FR 60183). Should the conditions of the TSV Exemption be modified in any way? Do any of the conditions pose any challenges for market participants? Please explain. (5 letters answered this).">5</span><span class="rfc on ink" style="background:#cde2fb" tabindex="0" data-q="Question 6 (order section VI, 91 FR 60183). Is the categorization into Tier 1 and Tier 2 Tokenized NMS Stock appropriate for the limitations on volume and number of symbols for Tokenized NMS Stock? Are the limitations to trading 75 symbols and 0.25 percent of the average daily share volume during the prior month in the relevant NMS stock appropriate for Tier 1 Tokenized NMS Stock? Are the limitations to trading 250 symbols and 2.5 percent of the average daily share volume for Tier 2 Tokenized NMS Stock during the prior month in the relevant NMS stock appropriate? Please explain and provide any potential modifications to the limitations you believe may be appropriate. (1 letter answered this).">6</span><span class="rfc on ink" style="background:#cde2fb" tabindex="0" data-q="Question 7 (order section VI, 91 FR 60183). Are there compliance or operational challenges impeding regulated entities from being TSV Participants? Should the Commission provide any relief from the requirements of Regulation NMS under the Exchange Act to TSV Participants that are registered broker-dealers? Why or why not? If so, please specify the provisions of Regulation NMS from which broker-dealer TSV Participants would need relief and explain the necessity of such relief. (1 letter answered this).">7</span><span class="rfc on ink" style="background:#cde2fb" tabindex="0" data-q="Question 8 (order section VI, 91 FR 60183). Should the Commission modify the Covered Firm Exemption in any way? Why or why not? If so, describe how the Covered Firm Exemption should be modified. (1 letter answered this).">8</span><span class="rfc on ink" style="background:#cde2fb" tabindex="0" data-q="Question 9 (order section VI, 91 FR 60183). Should the Covered Firm Exemption be permanent? If so, what conditions of the exemption should Covered Firms be subject to on a permanent basis? Is the length of the temporary Covered Firm Exemption appropriate? If not, what should the duration be? (1 letter answered this).">9</span><span class="rfc on ink" style="background:#cde2fb" tabindex="0" data-q="Question 10 (order section VI, 91 FR 60183). Are the conditions of the Covered Firm Exemption appropriate? Do any of the conditions, including those relating to the activities of the market participant as well as the maintenance of records, and disclosures, pose any challenges for market participants? Please explain. (1 letter answered this).">10</span></div></div></div><h2 id="letters-by-week-of-filing">Letters by week of filing</h2><div class="card"><div class="wkrow"><div class="wk" title="Week of 2026-09-14: 11 letters"><div class="wkn">11</div><div class="wkb"><span style="height:100.0%"></span></div><div class="wkl">14 Sep</div></div><div class="wk" title="Week of 2026-09-21: 11 letters"><div class="wkn">11</div><div class="wkb"><span style="height:100.0%"></span></div><div class="wkl">21 Sep</div></div><div class="wk" title="Week of 2026-09-28: 5 letters"><div class="wkn">5</div><div class="wkb"><span style="height:45.5%"></span></div><div class="wkl">28 Sep</div></div></div><p class="note">Each column is a week beginning on Monday, labelled with that date, and counts the coded letters dated in that week. 1 item with no date on the docket is not placed in a week. The comment file has no closing date, so this strip grows as letters arrive.</p></div><h2 id="filers-on-both-crypto-comment-files">Filers on both crypto comment files</h2><div class="card"><p style="margin-top:0">2 filers on this comment file have also filed on the Commission’s Regulation Crypto Assets proposal, File No. S7-2026-27, which the companion tracker covers. The match is by filer and is checked each time the comment file is enumerated.</p><div class="scroll"><table><thead><tr><th class="n">#</th><th class="">Commenter</th><th class="">Here (overall · posture)</th><th class="">Companion tracker</th></tr></thead><tbody><tr><td class="n"><a href="evidence.html#L4">4</a></td><td class="">Douglas Borthwick, Founder, The Insumer Model LLC</td><td class="">Conditional &middot; Mixed-direction</td><td class=""><a href="https://mrterinc.github.io/sec-reg-crypto-tracker/evidence.html#L76" target="_blank" rel="noopener">S7-2026-27 letter 76</a></td></tr><tr><td class="n"><a href="evidence.html#L10">10</a></td><td class="">Gabriel Shapiro, MetaLeX</td><td class="">Conditional &middot; Mixed-direction</td><td class=""><a href="https://mrterinc.github.io/sec-reg-crypto-tracker/evidence.html#L70" target="_blank" rel="noopener">S7-2026-27 letter 70</a></td></tr></tbody></table></div></div><h2 id="comment-letters">Comment letters</h2><div class="card"><p style="margin-top:0">All <b>28</b> letters are listed on their own page, searchable and sortable on every column, each one linking to the source document on sec.gov. 20 of them engage at least one part of the order; 18 are PDFs and 10 are HTML.</p><p><a class="pagelink" href="letters.html">Browse all 28 letters &rarr;</a> <a class="pagelink" href="evidence.html">See the evidence behind each one &rarr;</a></p><p class="note">A form letter is one row, with its number of copies shown beside the name rather than repeated as extra rows.</p></div><div class="foot">Built by <a href="https://mrterinc.github.io/" target="_blank" rel="noopener">Mert Erinc</a> (<a href="https://www.linkedin.com/in/mert-erinc-29752827/" target="_blank" rel="noopener">LinkedIn</a>) with Claude. Site version 1.0.0, generated 2026-10-02. This tracker is a research artifact and is not legal advice.</div></div><script>
+(function(){
+  var sels=document.querySelectorAll('.filters select'), tbl=document.getElementById('ltable');
+  if(!tbl) return;
+  var rows=[].slice.call(tbl.tBodies[0].rows), out=document.getElementById('lcount');
+  var box=document.getElementById('lsearch');
+  rows.forEach(function(r){ r.dataset.txt=r.textContent.toLowerCase(); });
+  var map={'commenter types':'b','overall labels':'o','postures':'p','item types':'i','elements':'e'};
+  function apply(){
+    var n=0, q=(box&&box.value||'').trim().toLowerCase();
+    rows.forEach(function(r){
+      var ok = !q || r.dataset.txt.indexOf(q)>=0;
+      sels.forEach(function(s){
+        if(!s.value) return;
+        var k=map[s.dataset.filter], v=r.getAttribute('data-'+k)||'';
+        if(k==='e'){ if(v.split(' ').indexOf(s.value)<0) ok=false; }
+        else if(v!==s.value) ok=false;
+      });
+      r.hidden=!ok; if(ok) n++;
+    });
+    out.textContent=n+' of '+rows.length+' letters';
+  }
+  sels.forEach(function(s){ s.addEventListener('change', apply); });
+  if(box) box.addEventListener('input', apply);
+  apply();
+})();
+(function(){
+  // Sorting on every column. Each cell carries data-v, so what is compared is the
+  // value and not the rendering: the date cell shows 'no date' but sorts on a key,
+  // and the commenter cell holds a link but sorts on the plain name.
+  var t=document.getElementById('ltable'); if(!t||!t.tHead) return;
+  var tb=t.tBodies[0], rows=[].slice.call(tb.rows);
+  rows.forEach(function(r,i){ r.dataset.ord=i; });
+  var heads=[].slice.call(t.tHead.rows[0].cells), cur={k:-1,dir:1};
+  function key(r,i){ var c=r.cells[i]; if(!c) return ''; 
+    return c.dataset.v!==undefined?c.dataset.v:c.textContent.trim(); }
+  heads.forEach(function(th,i){
+    th.classList.add('sortable'); th.tabIndex=0;
+    th.setAttribute('role','button');
+    th.setAttribute('title','Sort by '+th.textContent.trim());
+    function go(){
+      var dir = (cur.k===i ? -cur.dir : 1); cur={k:i,dir:dir};
+      heads.forEach(function(h){ h.removeAttribute('aria-sort'); });
+      th.setAttribute('aria-sort', dir>0?'ascending':'descending');
+      rows.slice().sort(function(a,b){
+        var x=key(a,i), y=key(b,i), d;
+        var nx=parseFloat(x), ny=parseFloat(y);
+        if(!isNaN(nx)&&!isNaN(ny)&&/^-?[0-9.]+$/.test(x)&&/^-?[0-9.]+$/.test(y)) d=nx-ny;
+        else d=String(x).localeCompare(String(y),undefined,{numeric:true,sensitivity:'base'});
+        if(d===0) d=a.dataset.ord-b.dataset.ord;   // stable: ties keep docket order
+        return d*dir;
+      }).forEach(function(r){ tb.appendChild(r); });
+    }
+    th.addEventListener('click',go);
+    th.addEventListener('keydown',function(e){
+      if(e.key==='Enter'||e.key===' '){ e.preventDefault(); go(); }
+    });
+  });
+})();
+document.querySelectorAll('[data-toggle]').forEach(function(b){
+  b.addEventListener('click',function(){
+    var t=document.getElementById(b.dataset.toggle); if(!t) return;
+    var open=!t.hidden; t.hidden=open;
+    b.textContent=b.textContent.replace(open?'Hide':'Show',open?'Show':'Hide');
+  });
+  var t=document.getElementById(b.dataset.toggle);
+  if(t&&t.hidden&&b.textContent.indexOf('Show')<0) b.textContent='Show '+b.textContent;
+});
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.toc a'));
+  if(!links.length) return;
+  var heads=[].slice.call(document.querySelectorAll('h2[id]'));
+  var map={}; links.forEach(function(a){ map[a.getAttribute('href').slice(1)]=a; });
+  var tick=false;
+  function upd(){
+    tick=false;
+    var y=window.pageYOffset+140, cur=heads[0];
+    heads.forEach(function(h){
+      if(h.getBoundingClientRect().top+window.pageYOffset<=y) cur=h;
+    });
+    links.forEach(function(a){ a.className=''; });
+    if(cur&&map[cur.id]) map[cur.id].className='on';
+  }
+  function onScroll(){ if(!tick){ tick=true; window.requestAnimationFrame(upd); } }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  upd();
+})();
+
+(function(){
+  // The stylesheet already carried a full dark palette and honoured an explicit
+  // data-theme on the root; nothing on the page ever set one. Untouched, the page
+  // still follows the system preference and follows it live.
+  var b=document.getElementById('themetog'); if(!b) return;
+  var root=document.documentElement;
+  function cur(){
+    var t=root.getAttribute('data-theme');
+    if(t==='dark'||t==='light') return t;
+    return (window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches)
+      ? 'dark' : 'light';
+  }
+  function paint(){
+    var c=cur(); b.setAttribute('data-theme',c);
+    var to=(c==='dark'?'light':'dark');
+    b.title='Switch to '+to; b.setAttribute('aria-label','Switch to '+to);
+  }
+  b.addEventListener('click',function(){
+    var n=(cur()==='dark'?'light':'dark');
+    root.setAttribute('data-theme',n);
+    try{localStorage.setItem('t4927theme',n);}catch(e){}
+    paint();
+  });
+  if(window.matchMedia){
+    var m=window.matchMedia('(prefers-color-scheme:dark)');
+    if(m.addEventListener) m.addEventListener('change',paint);
+    else if(m.addListener) m.addListener(paint);
+  }
+  paint();
+})();
+</script><script data-goatcounter="https://4-927.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<!-- Statcounter -->
+<script type="text/javascript">var sc_project=13357898;var sc_invisible=1;var sc_security="25fc1fb3";</script><script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script><noscript><div class="statcounter"><a title="Web Analytics Made Easy - Statcounter" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/13357898/0/25fc1fb3/1/" alt="Web Analytics Made Easy - Statcounter" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code --></body></html>
